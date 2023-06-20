@@ -34,7 +34,7 @@ class Spider:
     # Updates user display, fills queue and updates files
     @staticmethod
     def crawl_page(thread_name, page_url):
-        if page_url not in Spider.crawled:
+        if page_url not in Spider.crawled and get_domain_name(page_url) == Spider.domain_name and "#" not in page_url and "/forums/" not in page_url:
             print(thread_name + ' now crawling ' + page_url)
             print('Queue ' + str(len(Spider.queue)) + ' | Crawled  ' + str(len(Spider.crawled)))
             Spider.add_links_to_queue(Spider.gather_links(page_url))
