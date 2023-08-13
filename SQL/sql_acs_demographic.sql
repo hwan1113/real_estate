@@ -251,28 +251,7 @@ where "_2021_sex_and_age__total_population" > 500000
 ORDER BY name
 )
 
---##########################################################################################################################################################################
 
-
-
-
---##########################################################################################################################################################################
---income
---##########################################################################################################################################################################
-
--- select A.Name, A.state, A.city, round(A.CP03_2013_062E *1.15) as _2013_median_household_income_adj, round(A.CP03_2014_062E *1.15) _2014_median_household_income_adj, round(A.CP03_2015_062E *1.15) _2015_median_household_income_adj, 
--- round(A.CP03_2016_062E*1.15) _2016_median_household_income_adj, B.CP03_2017_062E _2017_median_household_income_adj, B.CP03_2018_062E _2018_median_household_income_adj, 
--- B.CP03_2019_062E _2019_median_household_income_adj, B.CP03_2021_062E _2021_median_household_income_adj
--- from acs_1_economic_city_2016 A
--- join acs_1_economic_city_2021 B on A.name = B.name
-
--- final
---select A.name, A.state, A.county, A.tract, B.dp03_0062e as median_household_income_2016, A.dp03_0062e as median_household_income_2021, 
---round(CAST((((A.dp03_0062e - B.dp03_0062e )/B.dp03_0062e )*100) as numeric), 4) as price_increase
---from acs_5_economic_census_tract_fl_2021 A
---join acs_5_economic_census_tract_fl_2016 B
---on A.name = B.name
---where A.county = '031' and B.dp03_0062e != 0
 
 
 --##########################################################################################################################################################################
