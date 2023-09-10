@@ -3017,7 +3017,7 @@ create table acs_1_social_city_2016
 	_2016_YEAR_OF_ENTRY__Foreign_born__Entered_before_2010 real
 )
 
-create table acs_5_demographic_census_tract_ca_2021(
+create table acs_5_demographic_census_tract_tx_2021(
 Name varchar, 
 _SEX_AND_AGE__Total_population real,
 state varchar,
@@ -3046,7 +3046,7 @@ _RACE__Total_population__One_race__Some_other_race real,
 _HISPANIC_OR_LATINO_AND_RACE__Total_population real
 )
 
-create table acs_5_housing_census_tract_ca_2021(
+create table acs_5_housing_census_tract_tx_2021(
 Name varchar,
 _Total_housing_units_x real,
 state varchar,
@@ -3178,7 +3178,7 @@ _Occupied_units_paying_rent__35_percent_or_more real,
 _Occupied_units_paying_rent__Not_computed real
 )
 
-create table acs_5_economic_census_tract_ca_2021(
+create table acs_5_economic_census_tract_tx_2021(
 Name varchar,
 _Population_16_y_up real,
 state varchar,
@@ -3317,7 +3317,7 @@ DP03_0137E real
 )
 
 
-create table acs_5_social_census_tract_ca_2021(
+create table acs_5_social_census_tract_tx_2021(
 Name varchar,
 _HOUSEHOLDS_BY_TYPE__Total_households real,
 state varchar,
@@ -3419,7 +3419,7 @@ DP02_0104E real
 )
 
 
-create table acs_5_demographic_census_tract_ca_2016(
+create table acs_5_demographic_census_tract_tx_2016(
 Name varchar,
 _SEX_AND_AGE__Total_population real,
 state varchar,
@@ -3448,7 +3448,7 @@ _HISPANIC_OR_LATINO_AND_RACE__Total_population real,
 DP05_0066E real
 )
 
-create table acs_5_housing_census_tract_ca_2016(
+create table acs_5_housing_census_tract_tx_2016(
 Name varchar,
 _Total_housing_units_x real,
 state varchar,
@@ -3580,7 +3580,7 @@ _Occupied_units_paying_rent__35_percent_or_more real,
 _Not_computed real
 )
 
-create table acs_5_economic_census_tract_ca_2016(
+create table acs_5_economic_census_tract_tx_2016(
 Name varchar,
 _Population_16_y_up real,
 state varchar,
@@ -3718,7 +3718,7 @@ DP03_0136E real,
 DP03_0137E real
 )
 
-create table acs_5_social_census_tract_ca_2016(
+create table acs_5_social_census_tract_tx_2016(
 Name varchar,
 _HOUSEHOLDS_BY_TYPE__Total_households real,
 state varchar,
