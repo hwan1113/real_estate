@@ -1,4 +1,4 @@
-CREATE TABLE acs_1_demographic_city_2021
+create table acs_1_demographic_city_2021
 (
 	Name varchar,
 	_2017_SEX_AND_AGE__Total_population real,
@@ -93,7 +93,7 @@ CREATE TABLE acs_1_demographic_city_2021
 	_2021_HISPANIC_OR_LATINO_AND_RACE__Total_population real
 );
 
-CREATE TABLE acs_1_housing_city_2021
+create table acs_1_housing_city_2021
 (
 	Name varchar,
 	_2017_Total_housing_units_x real,
@@ -599,7 +599,8 @@ CREATE TABLE acs_1_housing_city_2021
 	_2019_Occupied_units_paying_rent__Not_computed real,
 	_2021_Occupied_units_paying_rent__Not_computed real
 );
-CREATE TABLE acs_1_economic_city_2021
+
+create table acs_1_economic_city_2021
 (
 	Name varchar,
 	_2017_Population_16_y_up real,
@@ -1129,7 +1130,8 @@ CREATE TABLE acs_1_economic_city_2021
 	CP03_2019_137E real,
 	CP03_2021_137E real
 );
-CREATE TABLE acs_1_social_city_2021
+
+create table acs_1_social_city_2021
 (
 	Name varchar,
 	_2017_HOUSEHOLDS_BY_TYPE__Total_households real,
@@ -1511,6 +1513,7 @@ CREATE TABLE acs_1_social_city_2021
 	CP02_2019_104E real,
 	CP02_2021_104E real
 );
+
 create table acs_1_demographic_city_2016
 (
 	Name varchar,
@@ -1605,6 +1608,7 @@ create table acs_1_demographic_city_2016
 	_2015_HISPANIC_OR_LATINO_AND_RACE__Total_housing_units real,
 	_2016_HISPANIC_OR_LATINO_AND_RACE__Total_housing_units real
 );
+
 create table acs_1_housing_city_2016
 (
 	Name varchar,
@@ -1642,26 +1646,26 @@ create table acs_1_housing_city_2016
 	_2014_Total_housing_units__1_unit_attached real,
 	_2015_Total_housing_units__1_unit_attached real,
 	_2016_Total_housing_units__1_unit_attached real,
-	_2013_Total_housing_units__2_units  real,
-	_2014_Total_housing_units__2_units  real,
-	_2015_Total_housing_units__2_units  real,
-	_2016_Total_housing_units__2_units  real,
-	_2013_Total_housing_units__3_or_4_units  real,
-	_2014_Total_housing_units__3_or_4_units  real,
-	_2015_Total_housing_units__3_or_4_units  real,
-	_2016_Total_housing_units__3_or_4_units  real,
-	_2013_Total_housing_units__5_to_9_units  real,
-	_2014_Total_housing_units__5_to_9_units  real,
-	_2015_Total_housing_units__5_to_9_units  real,
-	_2016_Total_housing_units__5_to_9_units  real,
-	_2013_Total_housing_units__10_to_19_units  real,
-	_2014_Total_housing_units__10_to_19_units  real,
-	_2015_Total_housing_units__10_to_19_units  real,
-	_2016_Total_housing_units__10_to_19_units  real,
-	_2013_Total_housing_units__20_or_more_units  real,
-	_2014_Total_housing_units__20_or_more_units  real,
-	_2015_Total_housing_units__20_or_more_units  real,
-	_2016_Total_housing_units__20_or_more_units  real,
+	_2013_Total_housing_units__2_units real,
+	_2014_Total_housing_units__2_units real,
+	_2015_Total_housing_units__2_units real,
+	_2016_Total_housing_units__2_units real,
+	_2013_Total_housing_units__3_or_4_units real,
+	_2014_Total_housing_units__3_or_4_units real,
+	_2015_Total_housing_units__3_or_4_units real,
+	_2016_Total_housing_units__3_or_4_units real,
+	_2013_Total_housing_units__5_to_9_units real,
+	_2014_Total_housing_units__5_to_9_units real,
+	_2015_Total_housing_units__5_to_9_units real,
+	_2016_Total_housing_units__5_to_9_units real,
+	_2013_Total_housing_units__10_to_19_units real,
+	_2014_Total_housing_units__10_to_19_units real,
+	_2015_Total_housing_units__10_to_19_units real,
+	_2016_Total_housing_units__10_to_19_units real,
+	_2013_Total_housing_units__20_or_more_units real,
+	_2014_Total_housing_units__20_or_more_units real,
+	_2015_Total_housing_units__20_or_more_units real,
+	_2016_Total_housing_units__20_or_more_units real,
 	_2013_Total_housing_units__Mobile_home real,
 	_2014_Total_housing_units__Mobile_home real,
 	_2015_Total_housing_units__Mobile_home real,
@@ -2111,6 +2115,7 @@ create table acs_1_housing_city_2016
 	_2015_Not_computed real,
 	_2016_Not_computed real
 );
+
 create table acs_1_economic_city_2016
 (
 	Name varchar,
@@ -3015,9 +3020,9 @@ create table acs_1_social_city_2016
 	_2014_YEAR_OF_ENTRY__Foreign_born__Entered_before_2010 real,
 	_2015_YEAR_OF_ENTRY__Foreign_born__Entered_before_2010 real,
 	_2016_YEAR_OF_ENTRY__Foreign_born__Entered_before_2010 real
-)
+);
 
-create table acs_5_demographic_census_tract_tx_2021(
+create table acs_5_demographic_census_tract_ar_2021(
 Name varchar, 
 _SEX_AND_AGE__Total_population real,
 state varchar,
@@ -3044,9 +3049,9 @@ _RACE__Total_population__One_race__Black real,
 _RACE__Total_population__One_race__Asian real,
 _RACE__Total_population__One_race__Some_other_race real,
 _HISPANIC_OR_LATINO_AND_RACE__Total_population real
-)
+);
 
-create table acs_5_housing_census_tract_tx_2021(
+create table acs_5_housing_census_tract_ar_2021(
 Name varchar,
 _Total_housing_units_x real,
 state varchar,
@@ -3176,9 +3181,9 @@ _Occupied_units_paying_rent__25_to_299_percent real,
 _Occupied_units_paying_rent__30_to_349_percent real,
 _Occupied_units_paying_rent__35_percent_or_more real,
 _Occupied_units_paying_rent__Not_computed real
-)
+);
 
-create table acs_5_economic_census_tract_tx_2021(
+create table acs_5_economic_census_tract_ar_2021(
 Name varchar,
 _Population_16_y_up real,
 state varchar,
@@ -3314,10 +3319,10 @@ DP03_0134E real,
 DP03_0135E real,
 DP03_0136E real,
 DP03_0137E real
-)
+);
 
 
-create table acs_5_social_census_tract_tx_2021(
+create table acs_5_social_census_tract_ar_2021(
 Name varchar,
 _HOUSEHOLDS_BY_TYPE__Total_households real,
 state varchar,
@@ -3416,10 +3421,10 @@ DP02_0101E real,
 DP02_0102E real,
 DP02_0103E real,
 DP02_0104E real
-)
+);
 
 
-create table acs_5_demographic_census_tract_tx_2016(
+create table acs_5_demographic_census_tract_ar_2016(
 Name varchar,
 _SEX_AND_AGE__Total_population real,
 state varchar,
@@ -3446,9 +3451,9 @@ _RACE__One_race__Asian real,
 _RACE__One_race__Some_other_race real,
 _HISPANIC_OR_LATINO_AND_RACE__Total_population real,
 DP05_0066E real
-)
+);
 
-create table acs_5_housing_census_tract_tx_2016(
+create table acs_5_housing_census_tract_ar_2016(
 Name varchar,
 _Total_housing_units_x real,
 state varchar,
@@ -3578,9 +3583,9 @@ _Occupied_units_paying_rent__25_to_299_percent real,
 _Occupied_units_paying_rent__30_to_349_percent real,
 _Occupied_units_paying_rent__35_percent_or_more real,
 _Not_computed real
-)
+);
 
-create table acs_5_economic_census_tract_tx_2016(
+create table acs_5_economic_census_tract_ar_2016(
 Name varchar,
 _Population_16_y_up real,
 state varchar,
@@ -3716,9 +3721,9 @@ DP03_0134E real,
 DP03_0135E real,
 DP03_0136E real,
 DP03_0137E real
-)
+);
 
-create table acs_5_social_census_tract_tx_2016(
+create table acs_5_social_census_tract_ar_2016(
 Name varchar,
 _HOUSEHOLDS_BY_TYPE__Total_households real,
 state varchar,
@@ -3816,9 +3821,3 @@ _YEAR_OF_ENTRY__Foreign_born real,
 _YEAR_OF_ENTRY__Foreign_born__Entered_2010_or_later real,
 _YEAR_OF_ENTRY__Foreign_born__Entered_before_2010 real
 )
-
-
-
-
-
-
